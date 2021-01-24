@@ -1,0 +1,369 @@
+/* NAV */
+
+#navbarNavAltMarkup {
+    justify-content: center;
+}
+
+#navbarNavAltMarkup button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.ticket-plus {
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+.ticket-plus img {
+    display: block;
+    width: 8%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* COLUMN */
+
+.col-sm-7 {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+}
+
+.col-sm-8 {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+}
+
+.col-sm-12 {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.col-sm-2 {
+    background-color: #F5F5F5;
+    height: 200px;
+    padding: initial;
+}
+
+/* SIDES */
+
+.col-sm-2 div:first-child {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.col-sm-2 div:last-child {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-sm-2 h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm-2 p {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*MIDDLE */
+
+.col-sm-7 button,
+.col-sm-12 button,
+.col-sm-8 button {
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: white;
+    margin-top: 30px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.parent:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.name {
+    border-right: solid 1px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name img{
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 50%;
+}
+
+.name p {
+    text-align: center;
+    margin-bottom: initial;
+    font-size: 12px;
+}
+
+.title-auteur {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-auteur .title {
+    margin-bottom: initial;
+    font-size: 18px;
+}
+
+.title-auteur .auteur {
+    margin-bottom: initial;
+    font-size: 15px;
+
+}
+
+.status-nouveau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.status-nouveau div {
+    width: 200px;
+    background: #D8F3F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border: solid 2px #65CCC5;
+}
+
+.status-nouveau p {
+    text-align: center;
+    color: #65CCC5;
+    font-size: 20px;
+    margin-bottom: initial;
+}
+
+.status-encours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.status-encours div {
+    width: 200px;
+    background: #F8EDD0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border: solid 2px #C1A24F;
+}
+
+.status-encours p {
+    text-align: center;
+    color: #C1A24F;
+    font-size: 20px;
+    margin-bottom: initial;
+}
+
+.status-termine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.status-termine div {
+    width: 200px;
+    background: #D8F3D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border: solid 2px #43884F;
+}
+
+.status-termine p {
+    text-align: center;
+    color: #43884F;
+    font-size: 20px;
+    margin-bottom: initial;
+}
+
+/* FORM */
+
+form {
+    background-color: #F5F5F5;
+    padding: 40px 80px 40px 80px;
+}
+
+form button {
+    margin-top: 20px;
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.mx-auto {
+    margin-top: 20px;
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mx-auto p {
+    text-align: center
+}
+
+.form-parent {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 80px;
+}
+
+form select {
+    height: 38px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+}
+
+form textarea {
+    height: 150px;
+}
+
+/* CLIENTS */
+
+.edit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CONTENU */
+
+.col-contenu {
+    background-color: #F5F5F5;
+    height: 250px;
+    padding: initial;
+}
+
+.col-contenu button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenu {
+    margin-top: 20px;
+}
+
+.contenu-auteur p{
+    display: initial;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.contenu img{
+    border-radius: 100%;
+    width: 7%;
+}
+
+.contenu-texte {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+.message {
+    display: block;
+    width: 100%;
+}
+
+.message label {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* STATISTIQUES */
+
+.stat-parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    grid-column-gap: 80px;
+}
+
+.stat-enfant {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    width: 200px;
+}
+
+.stat-enfant p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.stat-enfant h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
